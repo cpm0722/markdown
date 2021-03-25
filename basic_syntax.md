@@ -250,11 +250,11 @@
 * 링크 URL 내부 공백은 %20으로 대체해야 함
 ## Image (이미지)
 * 형식  
-    | 형식 | 예시 코드 | 출력 결과|  
-    | --- | --- |  
+    | 형식 | 예시 코드 | 출력 결과 |  
+    | --- | --- | --- |  
     | \!\[대체텍스트\]\(이미지링크\) | `![Linux Penguin](/assets/images/tux.png)` | ![Linux Penguin](/assets/images/tux.png) |  
-    | \!\[대체텍스트\]\(이미지링크 "이미지 타이틀"\) |  `![Linux Penguin](/assets/images/tux.png "Linux Penguin is cute!!")` | |  
-    | \!\[대체텍스트\]\(이미지링크\)\(링크 URL\) | `![Linux Penguin](/assets/images/tux.png )](https://linux.com)` | |  
+    | \!\[대체텍스트\]\(이미지링크 "이미지 타이틀"\) |  `![Linux Penguin](/assets/images/tux.png "Linux Penguin is cute!!")` | ![Linux Penguin](/assets/images/tux.png "Linux Penguin is cute!!") |  
+    | \!\[대체텍스트\]\(이미지링크\)\(링크 URL\) | `![Linux Penguin](/assets/images/tux.png )](https://linux.com)` | ![Linux Penguin](/assets/images/tux.png )](https://linux.com) |  
     * 대체 텍스트: 이미지 출력이 불가능한 경우 출력될 텍스트 
     * 이미지 타이틀: 이미지에 마우스 커서를 올릴 경우 출력되는 텍스트  
 ## Escaping Characters (탈출 문자)
