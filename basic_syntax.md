@@ -1,7 +1,7 @@
-# Heading (제목)
+# Markdown Cheetsheet
+## Heading (제목)
 * 행의 가장 앞에 존재하는 '#'의 개수에 따라 제목의 수준(1~6)이 결정  
-* 수준에 따라 폰트의 크기가 결정됨  
-* 수준1만 예외적으로 행 아래에 구분선 추가  
+* 수준에 따라 폰트의 크기가 결정됨    
 * 예시
     * 예시 코드  
         ```
@@ -39,12 +39,12 @@
 
         level2
         ---
-# Paragraphs (단락)
+## Paragraphs (단락)
 * 단락을 구분하기 위해 **공백 없는** 빈 행을 삽입  
 * 목록 내부에서도 예외 없이 공백 없이 빈 행을 작성해야 함  
-# Line Breaks (개행)
+## Line Breaks (개행)
 * 해당 행 끝에 2개 이상의 공백을 삽입한 뒤 enter(return) 입력  
-# Emphasis (강조)
+## Emphasis (강조)
 * 강조 표시를 원하는 구역의 시작, 끝에 '*' 또는 '_'를 1~3개 삽입
     * *Italic*: '*' 또는 '_'를 **1**개 사용
     * **Bold**: '*' 또는 '_'를 **2**개 사용
@@ -65,7 +65,7 @@
         ```
         Love_is_bold
         ```
-# Blockquotes (인용)
+## Blockquotes (인용)
 * blockquotes로 만들고 싶은 단락의 가장 앞에 '>'를 추가  
     * 예시 코드  
         ```
@@ -104,8 +104,8 @@
         > ### The quarterly results look great!  
         >
         > - Revenue was off the chart.
-# Lists (목록)
-## Ordered Lists (순서 있는 목록)
+## Lists (목록)
+### Ordered Lists (순서 있는 목록)
 * 행의 가장 앞에 "숫자."를 추가
     * 예시 코드  
         ```
@@ -136,7 +136,7 @@
         9. Second item  
         9. Third item  
         9. Fourth item  
-## Unordered Lists (순서 없는 목록)
+### Unordered Lists (순서 없는 목록)
 * 행의 가장 앞에 '-', '*', '+' 중 하나를 추가
     * 예시 코드  
         ```
@@ -162,7 +162,7 @@
         + Third item  
         - Fourth item  
         ```
-## Adding Elements in Lists (목록 내 요소 추가)
+### Adding Elements in Lists (목록 내 요소 추가)
 * 목록 내에 다른 요소(목록, Blockquotes, 이미지, 일반 텍스트 등)을 추가하고 싶은 경우 tab 또는 4개의 space를 사용해 indent를 한 단계 추가한 후 사용
     * 예시 코드  
         ```
@@ -203,8 +203,8 @@
                 </head>
 
         3.  Update the title to match the name of your website.
-# Code (코드)
-## Code Phrase (코드 구절)
+## Code (코드)
+### Code Phrase (코드 구절)
 * 단어 또는 구절을 코드로 표현하고 싶은 경우 시작과 끝에 '`' 삽입  
     * 예시 코드  
         ```
@@ -219,9 +219,9 @@
         ```
     * 출력 결과  
         ``Use `code` in your Markdown file.``  
-## Code Block (코드 블럭)
+### Code Block (코드 블럭)
 * 코드 블럭을 작성하고 싶은 경우 모든 코드 라인 내에 최소 tab 1개 또는 공백 4개를 사용해 indent를 삽입해야 함 (목록 내부에서는 tab 2개 또는 공백 8개 이상)  
-# Horizontal Rule (수평선)
+## Horizontal Rule (수평선)
 * 수평선을 작성하고 싶은 경우 "***", "---", "___" 중 한 가지를 포함한 행을 삽입  
     * 예시 코드  
         ```
@@ -234,7 +234,7 @@
         ------
         _________
 * 호환성을 위해 수평선 직전, 직후에 빈 행을 삽입하는 것이 바람직  
-# Links (링크)
+## Links (링크)
 * 형식  
     | 형식 | 예시 코드 | 출력 결과 |  
     | --- | --- | --- |  
@@ -248,7 +248,7 @@
     | `I love supporting the **[EFF](https://eff.org)**.` | I love supporting the **[EFF](https://eff.org)**. |  
     | `I love supporting the _[EFF](https://eff.org)_.` | I love supporting the _[EFF](https://eff.org)_. |  
 * 링크 URL 내부 공백은 %20으로 대체해야 함
-# Image (이미지)
+## Image (이미지)
 * '!' 직후 '['와 ']' 사이에 대체 텍스트(이미지 출력이 불가능한 경우 출력될 텍스트)를, '('와 ')' 사이에 이미지 링크를 삽입해 이미지 추가  
     | 형식 | 예시 코드 |  
     | --- | --- |  
@@ -256,7 +256,7 @@
     | \![대체텍스트\]\(이미지링크 "이미지 타이틀"\) |  `![Philadelphia's Magic Gardens](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")` |  
     | \!\[대체텍스트\]\(이미지링크\)\(링크 URL\) | `![Philadelphia's Magic Gardens](/assets/images/philly-magic-gardens.jpg )](https://google.com)` |  
     * 이미지 타이틀: 이미지에 마우스 커서를 올릴 경우 출력되는 텍스트  
-# Escaping Characters (탈출 문자)
+## Escaping Characters (탈출 문자)
 * 마크다운 문법에서 사용하는 특수 문자들을 그대로 출력하고 싶은 경우 해당 문자 앞에 '\'를 삽입해 그대로 출력 가능  
 * 탈출 문자 종류  
     | 문자 | 명칭 |  
@@ -275,5 +275,5 @@
     | .  | dot |  
     | !  | exclamation mark |  
     | \|  | pipe |  
-# GFM (GitHub Flavered Markdown)
+## GFM (GitHub Flavered Markdown)
 [GitHub Repository URL for GFM CheetSheet](https://github.com/cpm0722/markdown/)
