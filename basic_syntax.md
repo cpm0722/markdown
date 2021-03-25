@@ -249,12 +249,13 @@
     | `I love supporting the _[EFF](https://eff.org)_.` | I love supporting the _[EFF](https://eff.org)_. |  
 * 링크 URL 내부 공백은 %20으로 대체해야 함
 ## Image (이미지)
-* '!' 직후 '['와 ']' 사이에 대체 텍스트(이미지 출력이 불가능한 경우 출력될 텍스트)를, '('와 ')' 사이에 이미지 링크를 삽입해 이미지 추가  
-    | 형식 | 예시 코드 |  
+* 형식  
+    | 형식 | 예시 코드 | 출력 결과|  
     | --- | --- |  
-    | \!\[대체텍스트\]\(이미지링크\) | `![Philadelphia's Magic Gardens](/assets/images/philly-magic-gardens.jpg)` |  
-    | \![대체텍스트\]\(이미지링크 "이미지 타이틀"\) |  `![Philadelphia's Magic Gardens](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")` |  
-    | \!\[대체텍스트\]\(이미지링크\)\(링크 URL\) | `![Philadelphia's Magic Gardens](/assets/images/philly-magic-gardens.jpg )](https://google.com)` |  
+    | \!\[대체텍스트\]\(이미지링크\) | `![Linux Penguin](/assets/images/tux.png)` | ![Linux Penguin](/assets/images/tux.png) |  
+    | \!\[대체텍스트\]\(이미지링크 "이미지 타이틀"\) |  `![Linux Penguin](/assets/images/tux.png "Linux Penguin is cute!!")` | |  
+    | \!\[대체텍스트\]\(이미지링크\)\(링크 URL\) | `![Linux Penguin](/assets/images/tux.png )](https://linux.com)` | |  
+    * 대체 텍스트: 이미지 출력이 불가능한 경우 출력될 텍스트 
     * 이미지 타이틀: 이미지에 마우스 커서를 올릴 경우 출력되는 텍스트  
 ## Escaping Characters (탈출 문자)
 * 마크다운 문법에서 사용하는 특수 문자들을 그대로 출력하고 싶은 경우 해당 문자 앞에 '\'를 삽입해 그대로 출력 가능  
